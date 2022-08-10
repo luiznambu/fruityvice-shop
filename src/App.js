@@ -13,7 +13,7 @@ function App() {
       <CartProvider>
         <Navbar />
         <Routes>
-          <Route path="/products" element={<Products />} />
+          <Route path="/" element={<Products />} />
           <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </CartProvider>
