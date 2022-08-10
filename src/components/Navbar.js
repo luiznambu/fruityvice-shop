@@ -8,6 +8,8 @@ import "../styles/Navbar.css"
 function Navbar() {
 
     const { cart } = useContext(CartContext);
+
+    // soma a prop de qtd de todos os items do objeto
     const sumItems = cart.reduce(function(acc, obj) { return acc + obj.qtd }, 0);
 
     return (
@@ -20,6 +22,7 @@ function Navbar() {
                     <h1>FruityVice shop</h1>
                 </div>
                 <div className="rightSide">
+                    {/* links para navegacao na app */}
                     <Link to='/products' className="link">Products</Link>
                     <Link to='/checkout' className="link">Cart { sumItems }</Link>
                 </div>

@@ -14,8 +14,8 @@ function Checkout() {
       <div className="list">
         <div className="header">
           <h2>Your cart</h2>
-          
         </div>
+        {/* aqui tem um codigo mt parecido com a pagina de produtos, porem sem a barra de pesquisa */}
         {cart.map((item) => {
   
           return (
@@ -45,6 +45,7 @@ function Checkout() {
                     <h4>qtde: { item.qtd }</h4>
                   </div>
                   <div className="buttons" >
+                  {/* botoes de adicionar e remover a quantidade de itens no carrinho, e em seguida, o botao de remover o item inteiro */}
                   <button className="btn" onClick={() => addToCart(item)} >+</button>
                   <button className="btn" onClick={() => remFromCart(item)}>-</button>
                   <button className="btn">
