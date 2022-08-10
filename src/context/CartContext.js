@@ -10,7 +10,8 @@ export function CartProvider({children}){
     const addToCart = (produtoAtual) => {
 
         const addProduct = {
-            ...produtoAtual
+            ...produtoAtual,
+            qtd: produtoAtual.qtd + 1,
         } 
 
         //se o produtoatual que esta sendo adicionado ja consta no carrinho ou nao

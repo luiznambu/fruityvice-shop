@@ -5,8 +5,11 @@
 }
 
 .btn--cart {
-    width: 2rem;
-    margin-right: 1rem;
+    width: 100%;
+}
+
+.btn--img {
+    height: 5rem;
 }
 
 .textbox {
@@ -35,10 +38,6 @@
     height: 100%;
     width: 13%;
     justify-content: center;
-}
-
-.text {
-    width: 65%;
 }
 
 .info {

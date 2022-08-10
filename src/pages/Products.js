@@ -72,7 +72,7 @@ function Products() {
                         </div>
                         <div className="buttons">
                             <button className="btn--cart" onClick={() => addToCart(item)}>
-                                <img src={Cart} alt="cart" className="btn--img " />
+                                <img src={Cart} alt="cart" className="btn--img" />
                             </button>
                         </div>
                     </div>

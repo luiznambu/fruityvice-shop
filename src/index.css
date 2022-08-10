@@ -23,8 +23,16 @@ body {
   text-align: center;
 }
 
+.text {
+  width: 80%;
+}
+
 .btn {
   margin-right: 0.3rem;
+}
+
+.buttons {
+  width: 5.9rem;
 }
 
 button {
