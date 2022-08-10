@@ -1,5 +1,8 @@
 <p>Este projeto foi realizada como um teste para vaga de estágio</p> <br>
 <p>A aplicação online pode ser acessada aqui: </p> <br>
+Caso a API não esteja funcionando é necessário requisitar outro link temporario no site justcors.com
 
-![image](https://user-images.githubusercontent.com/86805124/183856041-ec864357-c0a7-428c-bdbc-85eb5bac8dc5.png)
+![image](https://user-images.githubusercontent.com/86805124/184033703-937ad0c0-cf29-44a8-965c-300f383a4c47.png)
+
+![image](https://user-images.githubusercontent.com/86805124/184033769-8f30b778-beb4-45de-85a3-ec6ed0de77d5.png)
 
