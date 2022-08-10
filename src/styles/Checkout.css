@@ -1,0 +1,25 @@
+.checkout {
+    width: 40rem;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    height: 5rem;
+    border: 1px solid;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+img {
+    height: 100%
+}
+
+.qtd {
+    text-align: center;
+}
