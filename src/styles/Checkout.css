@@ -16,8 +16,13 @@
     padding: 0.5rem;
 }
 
-img {
-    height: 100%
+.btn--img {
+    height: 0.75rem;
+}
+
+.empty--cart {
+    height: 3rem;
+    margin-top: 7rem;
 }
 
 .qtd {
