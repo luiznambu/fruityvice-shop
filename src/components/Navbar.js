@@ -23,7 +23,7 @@ function Navbar() {
                 </div>
                 <div className="rightSide">
                     {/* links para navegacao na app */}
-                    <Link to='/products' className="link">Products</Link>
+                    <Link to='/' className="link">Products</Link>
                     <Link to='/checkout' className="link">Cart { sumItems }</Link>
                 </div>
             </div>
