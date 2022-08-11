@@ -15,17 +15,18 @@ function Products() {
 
     //foi feito o fix para esse erro CORS, agora n eh necesasrio link temporario
     async function getData() {
-        const res = await fetch('/api/fruit/all');
+        const endpoint = "/api/fruit/all";
+        const res = await fetch(endpoint);
         const data = await res.json();
         const itensQtd = data.map((dados) => { //aqui foi feito um itensQtd com uma prop de quantidade para ser atualizada conforme necessario no projeto
         return { ...dados, qtd:0};
-    });
+        })
+
         setItems(itensQtd); //passando os dados para Items
     } 
 
     useEffect(() => { //realiza a chamada de API sempre que a pagina eh carregada
         getData();
-        console.log(window.location.href)
     }, []);
 
     const handleFilter = (event) => { //funcao para a barra de procura
