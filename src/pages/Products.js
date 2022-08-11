@@ -13,7 +13,7 @@ function Products() {
     //requisicao da api - IMPORTANTE: a api sozinha estava dando erro de CORS, por isso usei um link diferente (que expira a cada 24h)
     //para requisitar outro link, deve-se ir no site justcors e copiar o novo codigo. ex: 'tl_4a216ec'
     async function getData() {
-        const res = await fetch('https://justcors.com/tl_4a216ec/https://www.fruityvice.com/api/fruit/all');
+        const res = await fetch('/api/fruit/all');
         const data = await res.json();
         const itensQtd = data.map((dados) => { //aqui foi feito um itensQtd com uma prop de quantidade para ser atualizada conforme necessario no projeto
         return { ...dados, qtd:0};
@@ -23,6 +23,7 @@ function Products() {
 
     useEffect(() => { //realiza a chamada de API sempre que a pagina eh carregada
         getData();
+        console.log(window.location.href)
     }, []);
 
     const handleFilter = (event) => { //funcao para a barra de procura
