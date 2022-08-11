@@ -1,5 +1,5 @@
 Este projeto foi realizado como um teste para vaga de estágio <br>
-A aplicação online pode ser acessada aqui:  <br>
+A aplicação online pode ser acessada aqui: https://fruityvice-nambu.netlify.app/ <br>
 Caso a API não esteja funcionando é necessário requisitar outro link temporario no site justcors.com
 
 <img src="https://user-images.githubusercontent.com/86805124/184042074-fd580367-d272-411a-8baa-9c9251bc3aa0.png" height="350"></img>
