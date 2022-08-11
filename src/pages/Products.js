@@ -12,6 +12,8 @@ function Products() {
 
     //requisicao da api - IMPORTANTE: a api sozinha estava dando erro de CORS, por isso usei um link diferente (que expira a cada 24h)
     //para requisitar outro link, deve-se ir no site justcors e copiar o novo codigo. ex: 'tl_4a216ec'
+
+    //foi feito o fix para esse erro CORS, agora n eh necesasrio link temporario
     async function getData() {
         const res = await fetch('/api/fruit/all');
         const data = await res.json();
