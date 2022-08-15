@@ -14,7 +14,7 @@ function Products() {
     //para requisitar outro link, deve-se ir no site justcors e copiar o novo codigo. ex: 'tl_4a216ec'
     //foi feito o fix para esse erro CORS, porem o fix soh funciona com devlocal... F
     async function getData() {
-        const res = await fetch('https://justcors.com/tl_fd19c05/https://www.fruityvice.com/api/fruit/all', {
+        const res = await fetch('https://justcors.com/tl_8d4a5b0/https://www.fruityvice.com/api/fruit/all', {
             headers: {
                 "Content-Type": "application/json",
             },
